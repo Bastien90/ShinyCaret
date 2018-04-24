@@ -23,7 +23,7 @@ library(stringr)
 
 # Define UI for application that draws a histogram
 ui<-shinyUI(
-    navbarPage("Data Analysis and Modelling",
+    navbarPage("Data Analysis and Modeling",
                theme = shinytheme("flatly"),
                        ##1.) Panel Data Upload and Overview
                        tabPanel("Data Upload and Overview",
